@@ -411,22 +411,6 @@ if "predicted_rent" in st.session_state:
             f"₹{total_monthly_cost:,.0f}"
         )
 
-    st.markdown("### 💼 Salary & Affordability")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.metric(
-            "Recommended Minimum Salary",
-            f"₹{recommended_salary:,.0f}/month"
-        )
-
-    with col2:
-        st.info(
-            "💡 Keeping rent around 30% or less of monthly income "
-            "is generally recommended for comfortable budgeting."
-        )
-
     # ---------------- AFFORDABILITY ----------------
     st.markdown("### 💼 Salary & Affordability")
 
