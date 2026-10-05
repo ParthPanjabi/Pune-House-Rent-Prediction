@@ -487,3 +487,15 @@ if "predicted_rent" in st.session_state:
         for i, area_name in enumerate(alternatives):
             with [col1, col2, col3][i]:
                 st.info(f"📍 **{area_name}**\n\nAlternative area to explore")
+
+st.markdown("""
+<div style="text-align:center; padding:30px 10px 10px 10px; color:#888;">
+    <hr style="border:0.5px solid #333;">
+    <p style="font-size:16px; margin-bottom:5px;">
+        Built & Developed by <strong>Parth Panjabi</strong>
+    </p>
+    <p style="font-size:13px;">
+        © 2026 PuneRent AI
+    </p>
+</div>
+""", unsafe_allow_html=True)
