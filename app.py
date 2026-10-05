@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # ---------------- LOAD MODEL ----------------
-with open("/content/pune_rent_model.pkl", "rb") as file:
+with open("pune_rent_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # ---------------- MAPPINGS ----------------
